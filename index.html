@@ -1,22 +1,58 @@
-<html>
-    <head>
-        <title>
-            Estrutura Inicial: cabeça
-        </title>
-    </head>
-    <body>
-        <h1>Titulo inicial</h1>
-        <h2>Titulo secundário</h2>
-        <h3>Tiulo terciário</h3>
-    </body>
-    <ol>
-        <li>Primeiro</li>
-        <li>Segundo</li>
-        <li>Terceiro</li>
-    </ol>
-    <ul>
-        <li>Primeiro</li>
-        <li>Segundo</li>
-        <li>Terceiro</li>
-    </ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fulano de Tal</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head> <!--parte burocrática: fonte e tamanho de texto, lagura, posicionamento, enquadro de tela-->
+<body> <!--corpo do código, cujo é o local utilizado para colocar os textos da pagina web; lado esquerdo;
+        lado direito-->
+    <main class="resume-contents">
+        <section class="left-section"> 
+            <section class="left-section-content"> <!-- inicio da 1ª seção, lado esquerdo--> 
+                <div class="profile"> <!-- classe para colocar imagem, neste caso da pessoa (imagem:profile) -->
+                    <img class="profile-image" src="imagem/profile-image.jpg" alt="Profile image">
+                    <p class="name">Fulano de Tal</p> <!-- parágrafo nome; nome da pessoa-->
+                    <p class="profession">Técnico em TI</p>
+                </div> 
+                <div class="contact-info">
+                    <p class="left-title">Contato</p> <!-- parágrafo contato, para entrar em contato-->
+                    <ul>
+                        <li><i class="fa fa-phone"></i>+55 91 99999-1111</li>
+                        <li><i class="fa fa-envelope"></i>fulanodetal@gmail.com</li>
+                        <li><i class="fa fa-globe"></i>www.fulanodetal.com</li>
+                        <li><i class="fa fa-github"></i>fulano de tal</li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <p class="left-title">Skills</p>
+                    <ul>
+                        <li><p>HTML, CSS, Git e GitHub</p></li>
+                        <li><p>Java</p></li>
+                        <li><p>C++</p></li>
+                        <li><p>Python</p></li>
+                    </ul> 
+                </div>
+            </section> <!-- fim da 1ª seção-->
+            </section>
+            <section>
+                <section class="right-section">
+                    <div class="right-section-contents">
+                        <section class="about gap">
+                            <div class="right-title">Sobre Mim</div>
+                            <p class="about-me-contents">
+                                Olá. Sou o Fulano de Tal. <br><!-- esse br é quebra de linha-->
+                                <br> Um pouco mais sobre o que faço
+                                <br> Quais são minhas competências
+                            </p>
+                        </section>
+                    </div>
+                </section>
+            </section>
+    </main>
+</body>
 </html>
