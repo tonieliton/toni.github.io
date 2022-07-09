@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,17 +9,22 @@
 
     <link rel="stylesheet" href="style.css">
 
-</head> <!--parte burocrática: fonte e tamanho de texto, lagura, posicionamento, enquadro de tela-->
-<body> <!--corpo do código, cujo é o local utilizado para colocar os textos da pagina web; lado esquerdo;
+</head>
+<!--parte burocrática: fonte e tamanho de texto, lagura, posicionamento, enquadro de tela-->
+
+<body>
+    <!--corpo do código, cujo é o local utilizado para colocar os textos da pagina web; lado esquerdo;
         lado direito-->
     <main class="resume-contents">
-        <section class="left-section"> 
-            <section class="left-section-content"> <!-- inicio da 1ª seção, lado esquerdo--> 
-                <div class="profile"> <!-- classe para colocar imagem, neste caso da pessoa (imagem:profile) -->
+        <section class="left-section">
+            <section class="left-section-content">
+                <!-- inicio da 1ª seção, lado esquerdo-->
+                <div class="profile">
+                    <!-- classe para colocar imagem, neste caso da pessoa (imagem:profile) -->
                     <img class="profile-image" src="imagem/profile-image.jpg" alt="Profile image">
                     <p class="name">Fulano de Tal</p> <!-- parágrafo nome; nome da pessoa-->
                     <p class="profession">Técnico em TI</p>
-                </div> 
+                </div>
                 <div class="contact-info">
                     <p class="left-title">Contato</p> <!-- parágrafo contato, para entrar em contato-->
                     <ul>
@@ -31,51 +37,86 @@
                 <div class="skills">
                     <p class="left-title">Skills</p>
                     <ul>
-                        <li><p>HTML, CSS, Git e GitHub</p></li>
-                        <li><p>Java</p></li>
-                        <li><p>C++</p></li>
-                        <li><p>Python</p></li>
-                    </ul> 
+                        <li>
+                            <p>HTML, CSS, Git e GitHub</p>
+                        </li>
+                        <li>
+                            <p>Java</p>
+                        </li>
+                        <li>
+                            <p>C++</p>
+                        </li>
+                        <li>
+                            <p>Python</p>
+                        </li>
+                    </ul>
                 </div>
             </section> <!-- fim da 1ª seção-->
-            </section>
-                <section class="right-section">
-                    <div class="right-section-contents">
-                        <section class="about gap">
-                            <div class="right-title">Sobre Mim</div>
-                            <p class="about-me-contents">
-                                Olá. Sou o Fulano de Tal. <br><!-- esse br é quebra de linha-->
-                                <br> Um pouco mais sobre o que faço
-                                <br> Quais são minhas competências
-                            </p>
-                        </section>
-                    </div>
-                <section class="experience gap">
-                    <div class="right-title">Experiência</div>
-                    <div class="experience-contents">
-                        <div class="exp-left">
-                            <p class="exp-company-name">Empresa 01</p>
-                            <p class="exp-time-period">2021-Present</p>
-                        </div>
-                        <div class="exp-right">
-                           <p class="exp-position">Engenheiro de Software</p> 
-                           <p class="exp-desc">
-                            Descreva aqui as principais atividades
-                           </p>
-                        </div>
-                        <div class="exp-left">
-                            <p class="exp-company-name">Empresa 02</p>
-                            <p class="exp-time-period">2019-2021</p>
-                        </div>
-                        <div class="exp-right">
-                           <p class="exp-position">Técnico em TI</p> 
-                           <p class="exp-desc">
-                            Descreva aqui as principais atividades
-                           </p>
-                        </div>
-                    </div>
-                </section>>    
+        </section>
+        <section class="right-section">
+            <div class="right-section-contents">
+                <section class="about gap">
+                    <div class="right-title">Sobre Mim</div>
+                    <p class="about-me-contents">
+                        Olá. Sou o Fulano de Tal. <br><!-- esse br é quebra de linha-->
+                        <br> Um pouco mais sobre o que faço
+                        <br> Quais são minhas competências
+                    </p>
                 </section>
+            </div>
+            <section class="experience gap">
+                <div class="right-title">Experiência</div>
+                <div class="experience-contents">
+                    <div class="exp-left">
+                        <p class="exp-company-name">Empresa 01</p>
+                        <p class="exp-time-period">2021-Present</p>
+                    </div>
+                    <div class="exp-right">
+                        <p class="exp-position">Engenheiro de Software</p>
+                        <p class="exp-desc">
+                            Descreva aqui as principais atividades
+                        </p>
+                    </div>
+                    <div class="exp-left">
+                        <p class="exp-company-name">Empresa 02</p>
+                        <p class="exp-time-period">2019-2021</p>
+                    </div>
+                    <div class="exp-right">
+                        <p class="exp-position">Técnico em TI</p>
+                        <p class="exp-desc">
+                            Descreva aqui as principais atividades
+                        </p>
+                    </div>
+                </div>
+            </section>>
+            <section class="education gap">
+                <!-- SECTION: é um grupo, onde pode-se agrupar novas DIVS-->
+                <div class="right-title">Formação Academica</div>
+                <div class="education-contents">
+                    <div class="education-left">
+                        <p class="education-school-name">USP</p>
+                        <p class="educationp-time-period">2018-2022</p>
+                    </div>
+                    <div class="education-right">
+                        <p class="education-subject">Ciência da Computação</p>
+                        <p class="education-desc">
+                            Pós-graduação em Ciência da Computação
+                        </p>
+                    </div>
+                    <div class="education-left">
+                        <p class="education-school-name">PUC-BAHIA</p>
+                        <p class="educationp-time-period">2015-2017</p>
+                    </div>
+                    <div class="education-right">
+                        <p class="education-subject">Manipulação de Software</p>
+                        <p class="education-desc">
+                            Curso técnico em Manipulação de Software
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </section>
     </main>
 </body>
+
 </html>
