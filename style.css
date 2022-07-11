@@ -50,7 +50,7 @@
 
 .profession {
     color: #eeeeee;
-    font-size: 20px;
+    font-size: 16px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -83,6 +83,7 @@
 }
 .skills ul li p {
     padding: .4rem 0;
+    padding-left: 20px;
     color: #eeeeee;
 }
 
@@ -92,6 +93,7 @@
 
 .right-title {
     color: #eeeeee;
+    font-size: 30px;
 }
 
 .gap {
