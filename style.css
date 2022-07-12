@@ -48,7 +48,7 @@ body {
 
 .name {
     color: #D6DBDF;
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
@@ -136,14 +136,14 @@ body {
 
 .right-title {
     color: #70C6C7;
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: bold;
     display: flex;
     align-items: center;
-    padding: 2rem 0;
     position: relative;
+    border-bottom: 2px solid #a5a3a3;
 }
 
 .gap {
@@ -173,7 +173,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #FDB44B;
-    padding-bottom: .4rem;
+    padding-bottom: .2rem;
 }
 
 .exp-time-period,
@@ -183,7 +183,12 @@ body {
     letter-spacing: 1px;
     line-height: 2rem;
 }
-
+.space{
+    padding-top: 1rem;
+}
+.space2 {
+    padding-bottom: 2rem ; 
+}
 .exp-position,
 .education-subject,
 .awards-name {
