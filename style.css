@@ -31,12 +31,14 @@ body {
     border-radius: 0px 60px 0px 0px;
 }
 
-.left-section-content{
+.left-section-content {
     padding: 2rem 2rem;
 }
+
 .space {
     padding: 1rem;
 }
+
 .space2 {
     padding: 1.75rem;
 }
@@ -108,6 +110,7 @@ body {
 .skills ul {
     padding-top: 1.5rem;
 }
+
 .skills ul li p {
     padding: .4rem 0;
     color: #d6dbdfaf;
@@ -155,6 +158,7 @@ body {
 .gap {
     padding-bottom: 2rem;
 }
+
 .about-me-contents {
     font-size: 18px;
     letter-spacing: 1px;
@@ -213,6 +217,7 @@ body {
 
 /* Media queries */
 @media screen and (max-width:780px) {
+
     .experience-contents,
     .education-contents,
     .awards-contents {
@@ -224,11 +229,11 @@ body {
     .left-section {
         grid-column: span 3;
     }
-    
+
     .right-section {
         grid-column: span 4;
     }
-    
+
 }
 
 @media screen and (max-width:1200px) {
