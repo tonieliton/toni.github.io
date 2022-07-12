@@ -17,6 +17,12 @@ body {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
+.space{
+    padding: 1rem;
+}
+.space2{
+    padding: 1.75rem;
+}
 
 .left-section {
     grid-column: span 2;
@@ -31,7 +37,7 @@ body {
     border-radius: 0px 60px 0px 0px;
 }
 
-.left-section-content{
+.left-section-content {
     padding: 2rem 2rem;
 }
 
@@ -48,7 +54,7 @@ body {
 
 .name {
     color: #D6DBDF;
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
@@ -102,6 +108,7 @@ body {
 .skills ul {
     padding-top: 1.5rem;
 }
+
 .skills ul li p {
     padding: .4rem 0;
     color: #d6dbdfaf;
@@ -136,19 +143,20 @@ body {
 
 .right-title {
     color: #70C6C7;
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: bold;
     display: flex;
     align-items: center;
-    padding: 2rem 0;
     position: relative;
+    border-bottom: 2px solid #a5a3a3;
 }
 
 .gap {
     padding-bottom: 2rem;
 }
+
 .about-me-contents {
     font-size: 18px;
     letter-spacing: 1px;
@@ -208,6 +216,7 @@ body {
 
 /* Media queries */
 @media screen and (max-width:780px) {
+
     .experience-contents,
     .education-contents,
     .awards-contents {
@@ -219,11 +228,11 @@ body {
     .left-section {
         grid-column: span 3;
     }
-    
+
     .right-section {
         grid-column: span 4;
     }
-    
+
 }
 
 @media screen and (max-width:1200px) {
